@@ -2,7 +2,7 @@
 
 FROM python:3.10-slim
 
-WORKDIR /app
+WORKDIR /streamlit_demo
 
 RUN apt-get update && apt-get install -y \
     build-essential \
